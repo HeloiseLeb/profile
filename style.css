@@ -1,0 +1,160 @@
+body {
+  font-family: 'Tisa Sans Pro', sans-serif;
+  background-color: #E0228A;
+  background-image: url("https://media2.giphy.com/media/YGtD8dnOCSIUg/giphy.gif");
+  color: #E0228A;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 50px auto;
+  width: 90%;
+}
+
+h1 {
+  color: #E0228A;
+  font-family: 'Barbie', sans-serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 50px;
+  padding: 25px;
+  margin: 10px;
+}
+
+h2 {
+  color: #E0228A;
+  font-family: 'Barbie', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  padding: 25px;
+  margin: 10px;
+}
+
+h3 {
+  color: #E0228A;
+  font-family: 'Barbie', sans-serif;
+  font-size: 30px;
+}
+
+
+.Profile-Picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+img:hover {
+  content: url("https://vectorseek.com/wp-content/uploads/2023/06/Barbie-icon-Logo-Vector.jpg");
+  border: 1px solid #E0228A;;
+}
+
+.white-sections {
+  padding: 25px;
+  width: 500px;
+  margin: 10px auto;
+  border-radius: 15px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ .pink-button {
+  width: 180px;
+  margin: 25px auto;
+  font-weight: bold;
+  font-size: 10px;
+  transition: 0.3s ease;
+  background-color: #E0228A;
+  padding: 2px;
+  border-radius: 5px;
+}
+ .pink-button :hover {
+  color: #A30058;
+  background-color: #E0228A;
+}
+.pink-button > a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #E0228A;
+}
+
+
+
+
+ul li {
+  display: inline;
+}
+
+
+ul {
+  padding: 0px;
+}
+
+.card-shadow {
+  box-shadow: 10px 5px 5px #E0228A;
+  width: 180px;
+  margin: 25px auto;
+  color: #E0228A;
+  border-radius: 5px;
+
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  #Profile-Picture {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 20px;
+
+  }
+
+  h2 {
+    font-size: 10px;
+
+  }
+  body {
+
+    text-align: center;
+    justify-content: center;
+    font-size: 5px;
+    margin: 10px 135px;
+    width: 20%;
+  }
+
+  .white-sections {
+    padding: 10px;
+    width: 110%;
+    margin: 10px 0px;
+
+  }
+
+
+
+}
